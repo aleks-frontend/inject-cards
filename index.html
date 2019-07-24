@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inject cards</title>
+    <style>
+        .page {
+            margin: 0 auto 30px;
+            width: 50%;
+            border: 5px solid black;
+        }
+
+        .cardMaster { display: none;  }
+
+        .card__container { 
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 150px;
+            box-sizing: border-box;
+            flex-basis: 50%;
+            background: #e3e3e3;
+            padding: 20px;
+            border: 1px solid #000;
+        }
+
+        .card__heading { 
+            margin-bottom: 15px;
+            font-size: 26px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cardMaster">
+        <div class="cardMaster__item">
+            <div class="js-name-src">John Doe</div>
+            <div class="js-title-src">Developer</div>
+        </div>
+        <div class="cardMaster__item">
+            <div class="js-name-src">John Doe</div>
+            <div class="js-title-src">Developer</div>
+        </div>
+        <div class="cardMaster__item">
+            <div class="js-name-src">John Doe</div>
+            <div class="js-title-src">Developer</div>
+        </div>
+        <div class="cardMaster__item">
+            <div class="js-name-src">John Doe</div>
+            <div class="js-title-src">Developer</div>
+        </div>
+        <div class="cardMaster__item">
+            <div class="js-name-src">John Doe</div>
+            <div class="js-title-src">Developer</div>
+        </div>
+        <div class="cardMaster__item">
+            <div class="js-name-src">John Doe</div>
+            <div class="js-title-src">Developer</div>
+        </div>
+        <div class="cardMaster__item">
+            <div class="js-name-src">John Doe</div>
+            <div class="js-title-src">Developer</div>
+        </div>
+        <div class="cardMaster__item">
+            <div class="js-name-src">John Doe</div>
+            <div class="js-title-src">Developer</div>
+        </div>
+    </div>
+    <script src="js/inject-cards.js"></script>
+</body>
+</html>
